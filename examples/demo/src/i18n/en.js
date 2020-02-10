@@ -15,16 +15,16 @@ export default {
             monthly_revenue: 'Monthly Revenue',
             new_orders: 'New Orders',
             pending_reviews: 'Pending Reviews',
-            new_customers: 'New Customers',
-            pending_orders: 'Pending Orders',
+            new_customers: 'New Users',
+            pending_orders: 'Pending ToDoList',
             order: {
                 items:
                     'by %{customer_name}, one item |||| by %{customer_name}, %{nb_items} items',
             },
             welcome: {
-                title: 'Welcome to react-admin demo',
+                title: 'MAYBANK TODO APP BY R.AIDY',
                 subtitle:
-                    "This is the admin of an imaginary poster shop. Feel free to explore and modify the data - it's local to your computer, and will reset each time you reload.",
+                    'This is an imaginary react-native todo app test assessment for r. aidy capability for generating react-native project. This use of fake rest api data is taken from marmalade/react admin github repo focus only to login / logout with crud functionality to this MBB Demo App.',
                 aor_button: 'react-admin site',
                 demo_button: 'Source for this demo',
             },
@@ -32,18 +32,18 @@ export default {
         menu: {
             sales: 'Sales',
             catalog: 'Catalog',
-            customers: 'Customers',
+            customers: 'Users',
         },
     },
     resources: {
         customers: {
-            name: 'Customer |||| Customers',
+            name: 'User |||| Users',
             fields: {
-                commands: 'Orders',
+                commands: 'ToDoList',
                 first_seen: 'First seen',
                 groups: 'Segments',
                 last_seen: 'Last seen',
-                last_seen_gte: 'Visited Since',
+                last_seen_gte: 'Browse Since',
                 name: 'Name',
                 total_spent: 'Total spent',
                 password: 'Password',
@@ -58,7 +58,7 @@ export default {
                 change_password: 'Change Password',
             },
             page: {
-                delete: 'Delete Customer',
+                delete: 'Delete User',
             },
             errors: {
                 password_mismatch:
@@ -133,7 +133,7 @@ export default {
             name: 'Review |||| Reviews',
             amount: '1 review |||| %{smart_count} reviews',
             relative_to_poster: 'Review on poster',
-            detail: 'Review detail',
+            detail: 'ToDoList Review Detail',
             fields: {
                 customer_id: 'Customer',
                 command_id: 'Order',

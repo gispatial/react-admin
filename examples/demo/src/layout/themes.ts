@@ -7,10 +7,10 @@ export const darkTheme = {
 export const lightTheme = {
     palette: {
         secondary: {
-            light: '#5f5fc4',
-            main: '#283593',
+            light: '#000000',
+            main: '#FFD700',
             dark: '#001064',
-            contrastText: '#fff',
+            contrastText: '#000',
         },
     },
     overrides: {

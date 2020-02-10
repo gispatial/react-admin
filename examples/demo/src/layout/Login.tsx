@@ -127,8 +127,10 @@ const Login = () => {
                                     <LockIcon />
                                 </Avatar>
                             </div>
-                            <div className={classes.hint}>
-                                Hint: demo / demo
+                            <div className={classes.hint}>MAYBANK TODO APP</div>
+                            <div>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;User:
+                                demo Pass: demo
                             </div>
                             <div className={classes.form}>
                                 <div className={classes.input}>

@@ -58,7 +58,7 @@ const VisitorForm = (props: any) => {
                                         >
                                             <TextInput
                                                 source="first_name"
-                                                resource="customers"
+                                                resource="users"
                                                 fullWidth
                                             />
                                         </Box>

@@ -57,7 +57,7 @@ const VisitorList = (props: any) => {
                     />
                     <ColoredNumberField
                         source="total_spent"
-                        options={{ style: 'currency', currency: 'USD' }}
+                        options={{ style: 'currency', currency: 'MYR' }}
                     />
                     <DateField source="latest_purchase" showTime />
                     <BooleanField source="has_newsletter" label="News." />

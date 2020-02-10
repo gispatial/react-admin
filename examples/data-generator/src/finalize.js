@@ -36,7 +36,7 @@ export default function(db) {
     // add 'compulsive' group
     db.customers
         .filter(customer => customer.total_spent > 1500)
-        .forEach(customer => customer.groups.push('compulsive'));
+        .forEach(customer => customer.groups.push('computer'));
 
     // add 'regular' group
     db.customers

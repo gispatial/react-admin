@@ -1,5 +1,5 @@
 const segments = [
-    'compulsive',
+    'computer',
     'collector',
     'ordered_once',
     'regular',
